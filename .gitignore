@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.DS_Store
+.env*
+work/
+state/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.tif
+*.tiff
+*.zip

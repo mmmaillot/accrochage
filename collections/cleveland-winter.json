@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "title": "Winter in Cleveland",
+  "theme": "Three views of winter light and landscapes",
+  "artworks": [
+    {
+      "title": "A Winter Sky",
+      "author": "George Inness",
+      "date": "1866",
+      "source": "https://www.clevelandart.org/art/1927.388",
+      "image_url": "https://openaccess-cdn.clevelandart.org/1927.388/1927.388_full.tif",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "The Cleveland Museum of Art, The Charles W. Harkness Gift, 1927.388",
+      "rights_notes": "The museum identifies this reproduction as Open Access (CC0). Keep the artist and identify the crop.",
+      "use": "redistributable",
+      "crop": {"y": 0.25}
+    },
+    {
+      "title": "Wild Boars in the Snow",
+      "author": "Rosa Bonheur",
+      "date": "c. 1872–77",
+      "source": "https://www.clevelandart.org/art/1980.231",
+      "image_url": "https://openaccess-cdn.clevelandart.org/1980.231/1980.231_full.tif",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "The Cleveland Museum of Art, Bequest of Noah L. Butkin, 1980.231",
+      "rights_notes": "The museum identifies this reproduction as Open Access (CC0). Keep the artist and identify the crop.",
+      "use": "redistributable",
+      "crop": {"y": 0.77, "zoom": 0.06}
+    },
+    {
+      "title": "Winter Landscape",
+      "author": "Attributed to Jan Griffier",
+      "date": "c. 1680–1718",
+      "source": "https://www.clevelandart.org/art/2008.287",
+      "image_url": "https://openaccess-cdn.clevelandart.org/2008.287/2008.287_full.tif",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "The Cleveland Museum of Art, Bequest of Muriel Butkin, 2008.287",
+      "rights_notes": "The museum identifies this reproduction as Open Access (CC0). Preserve the qualified attribution and identify the crop.",
+      "use": "redistributable",
+      "crop": {"y": 0.60, "zoom": 0.06}
+    }
+  ]
+}

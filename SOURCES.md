@@ -1,0 +1,15 @@
+# Sources for the research agent
+
+Search across sources suited to the brief. Prefer the institution or photographer’s primary record. Review the rights statement on each record and use the largest permitted file. Use the credit wording provided by the source and preserve licenses, notices and links. Record additional rights that may affect the requested use.
+
+| Source | How to use it |
+| --- | --- |
+| Cleveland Museum of Art | `frame.py search cleveland "winter landscape"` returns CC0 candidates with a preview and the full-size original when available. Confirm the accession record. The smaller print JPEG can fall below 4K. [Open Access](https://www.clevelandart.org/open-access) · [API](https://openaccess-api.clevelandart.org/) |
+| Wikimedia Commons | `frame.py search commons "Ronda bridge sunset"` returns candidate file pages, image sizes and license hints. Open the file page and confirm authorship, the applicable license, any source restrictions and the original dimensions. Follow attribution requirements and any ShareAlike terms for adaptations you distribute. [Reusing content](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia) |
+| Metropolitan Museum of Art | Search its catalogue or official API and verify Open Access on the object page. Use the large `primaryImage` for qualifying objects. [Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) · [API](https://metmuseum.github.io/) |
+| Art Institute of Chicago | Search the catalogue or API, verify the artwork is public domain and use a rights-cleared IIIF image at sufficient resolution. Some objects return files too small for the project. [API and IIIF](https://api.artic.edu/docs/) |
+| Pexels | Find work through web search or the official API. Obtain selected originals with a permitted method. Store a local copy next to the private recipe and credit the photographer. Read the platform rules before proposing redistribution. [License](https://www.pexels.com/license/) · [Terms](https://www.pexels.com/terms-of-service/) · [API](https://www.pexels.com/api/documentation/) |
+| Unsplash | Find work through web search or the official API. Use the platform’s permitted download flow. An API integration must follow attribution, hotlinking and download tracking requirements. Store allowed originals as local inputs. [Terms](https://unsplash.com/terms) · [API guidelines](https://help.unsplash.com/en/articles/2511245-unsplash-api-guidelines) |
+| Public archives and other open collections | Use the archive’s original record and determine the reuse terms of the specific file. Use a local input or propose an allowlisted host from the institution. |
+
+The built-in commands return leads for the agent to evaluate. For local files, keep the original source URL and credit in the recipe. Configure `ACCROCHAGE_USER_AGENT` with a descriptive identifier and contact if needed. Respect rate limits and `Retry-After`. Avoid searching or downloading from the Samsung Art Store.
